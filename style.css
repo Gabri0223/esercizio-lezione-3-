@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+
+Main {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+hr{
+    border:solid yellow 1px;
+}
+#giallo{
+    
+    background-color: rgb(243, 246, 151);
+}
+
+#giallo p{
+    color: green;
+}
+
+span{
+    font-weight: bold;
+}
+
+#centrato p{
+    color:grey;
+}
+
+
+
+#linea{
+    padding-left: 20px;
+    border-left:solid yellow 3px;
+}
+
+.p-1{
+    color: red;
+}
+.p-2{
+    color: green;
+}
+
+#left hr{
+    border: solid rgb(82, 230, 225) 1px;
+}
