@@ -1,22 +1,20 @@
-body {
+header {
     text-align: center;
 }
 
 Main {
-    text-align: left;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-hr{
-    border:solid yellow 1px;
-}
-#giallo{
-    
-    background-color: rgb(243, 246, 151);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#giallo p{
-    color: green;
+header p {
+     background-color: rgb(243, 246, 151);
+     margin: 0;
+     padding-top: 1em;
+     padding-bottom:1em;
+     color: green;
+    margin: auto 0;
 }
 
 span{
@@ -24,20 +22,17 @@ span{
 }
 
 #centrato p{
+    text-align: center;
     color:grey;
 }
-
-
 
 #linea{
     padding-left: 20px;
     border-left:solid yellow 3px;
+    color:red
 }
 
-.p-1{
-    color: red;
-}
-.p-2{
+#linea :nth-child(2){
     color: green;
 }
 
